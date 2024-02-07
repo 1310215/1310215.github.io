@@ -9,11 +9,13 @@
 
     <h1>Word Counter</h1>
 
-    <textarea id="inputText" placeholder="Enter your text here"></textarea>
-    <button onclick="countWords()">Count Words</button>
+    <textarea id="countText" placeholder="Enter your text here"></textarea>
+    <button onclick="countWords(); countThe()">Count Words</button>
 
     <h2>Word Count Result:</h2>
     <p id="wordCountResult">0</p>
+    <h2>The number of the:</h2>
+    <p id="theCountResult">0</p>
 
     <script src="wordCounter.js"></script>
 
